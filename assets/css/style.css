@@ -119,10 +119,16 @@ main {
     color: #f2eac6;
 }
 
-/* mycity name section */
+/* mycity section */
+#mycity {
+    width: 95%;
+    margin: 20px auto;
+}
+
 #mycity-name{
     text-align: center;
 }
+
 #mycity > div >p{
     padding: 10px;
 }
