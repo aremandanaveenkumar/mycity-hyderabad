@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 0 1rem 1rem;
+    padding: 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 header a {
@@ -83,7 +84,7 @@ main {
     background-color: lightskyblue;
     /*  main element to take max space and position the footer to down*/
     flex: 1 0 auto;
-    margin-top: 56px;
+    margin-top: 72px;
 }
 
 /* Footer */
@@ -91,7 +92,7 @@ footer {
     background-color: gray;
 }
 
-/* Media quers : tablets and larger screen sizes (768px and up) */
+/* Media queries : tablets and larger screen sizes (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -109,5 +110,14 @@ footer {
     }
     .nav-toggle-label {
         display: none;
+    }
+    #logo{
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    /*  */
+    main{
+        margin-top: 113px;
     }
 }
