@@ -130,11 +130,17 @@ main {
 }
 
 #mycity > div >p{
-    padding: 10px;
+    padding: 10px 20px;    
+    line-height: 1.75;
+}
+
+hr {
+    border-top: 1px solid #43210a;
+    margin: 5px 0;
 }
 
 #mycity > div {
-    padding-left: 7px;
+    margin-bottom: 20px;
 }
 
 /* Footer */
