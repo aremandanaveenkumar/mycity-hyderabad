@@ -121,3 +121,11 @@ footer {
         margin-top: 113px;
     }
 }
+
+/* Media queries : larger screen sizes (992px and up) */
+@media screen and (min-width: 992px) {
+    /* link hover effect */
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
