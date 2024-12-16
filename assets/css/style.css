@@ -83,6 +83,7 @@ main {
     background-color: lightskyblue;
     /*  main element to take max space and position the footer to down*/
     flex: 1 0 auto;
+    margin-top: 56px;
 }
 
 /* Footer */
