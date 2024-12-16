@@ -36,8 +36,8 @@ header a {
     color: inherit;
 }
 
-h1{
-    font-family: "Exo 2", serif; 
+h1 {
+    font-family: "Exo 2", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -49,16 +49,16 @@ h1{
     list-style-type: none;
 }
 
-#menu > li{
+#menu>li {
     margin-bottom: 1em;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navigation bar style with drop down toggle */
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
@@ -70,11 +70,11 @@ nav{
 }
 
 /* nav toggle */
-#nav-toggle:checked~nav{
+#nav-toggle:checked~nav {
     display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
@@ -89,4 +89,25 @@ main {
 /* Footer */
 footer {
     background-color: gray;
+}
+
+/* Media quers : tablets and larger screen sizes (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        box-shadow: none;
+        display: block;
+    }
+    #menu{
+        display:flex;
+    }
+    #menu > li{
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
 }
