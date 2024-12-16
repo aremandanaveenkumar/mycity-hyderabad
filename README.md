@@ -1,2 +1,2 @@
 <!-- https://wallpaperswide.com/charminar-wallpapers.html -->
-(https://aremandanaveenkumar.github.io/mycity-hyderabad/)[Open]
+https://aremandanaveenkumar.github.io/mycity-hyderabad/
