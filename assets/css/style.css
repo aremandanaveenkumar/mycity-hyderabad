@@ -123,6 +123,13 @@ main {
 #mycity-name{
     text-align: center;
 }
+#mycity > div >p{
+    padding: 10px;
+}
+
+#mycity > div {
+    padding-left: 7px;
+}
 
 /* Footer */
 #social-networks {
