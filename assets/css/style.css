@@ -18,6 +18,14 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: "Exo 2", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -35,13 +43,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: "Exo 2", serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 #menu {
@@ -97,10 +98,26 @@ main {
     width: 100%;
     background-image: url("../images/hero-image.jpg");
     background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 150%;
+    background-position: center bottom;
+    background-size: 200%;
+    background-color: black;
 }
 
+#cover-text{
+    background-color: rgba(206, 144, 123, .5);
+    font-size: 130%;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    position: relative;
+    top: 10%;
+    left:10px
+}
+
+#cover-text > h2, #cover-text > h3{
+    color: #f2eac6;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -157,8 +174,15 @@ main {
         width: 100%;
         background-image: url("../images/hero-image.jpg");
         background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 100%;
+        background-position: center bottom;
+        background-size: 70%;
+        background-color: black;
+    }
+    #cover-text{
+        width: 30%;
+        position: relative;
+        top: 70%;
+        left:10px
     }
 }
 
