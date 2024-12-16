@@ -18,7 +18,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Exo 2", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -115,8 +115,13 @@ main {
     left:10px
 }
 
-#cover-text > h2, #cover-text > h3{
+#cover-text > h2, #cover-text > h3, #cover-text > h4{
     color: #f2eac6;
+}
+
+/* mycity name section */
+#mycity-name{
+    text-align: center;
 }
 
 /* Footer */
