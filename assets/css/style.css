@@ -23,6 +23,10 @@ header {
     background-color: goldenrod;
 }
 
+h1{
+    font-family: "Exo 2", serif; 
+}
+
 /* Main Content */
 main {
     background-color: lightskyblue;
