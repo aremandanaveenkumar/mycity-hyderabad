@@ -78,6 +78,9 @@ nav {
 #nav-toggle {
     display: none;
 }
+.nav-toggle-label {
+    font-size: 160%;
+}
 
 /* Main Content */
 main {
