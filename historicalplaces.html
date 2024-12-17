@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
-     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -25,32 +25,47 @@
             <h1 id="logo">My City</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-togle">
-        <label for="nav-toggle" class="nav-toggle-label">X</label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" >Hyderabad</a></li>
-                <li><a href="historicalplaces.html" class="active">Historical Places</a></li>
-                <li><a href="review.html" >Add Review</a></li>
+                <li><a href="index.html"><i class="fa-solid fa-map-location-dot"></i> Hyderabad</a></li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-toggle" name="dropdown-togle">
+                    <label for="dropdown-toggle" class="dropdown-toggle-label active"><i class="fa-solid fa-monument"></i> Historical Places</label>
+                    <div class="dropdown-content">
+                        <a href="historicalplaces.html">Historical Places</a>
+                        <a href="outdoorattractions.html">Outdoor Attractions</a>
+                        <a href="musuems.html">Musuems</a>
+                        <a href="amusementparks.html">Amusement Parks</a>
+                        <a href="festivalsandevents.html">Festivals & Events</a>
+                    </div>
+                </li>
+                <li><a href="review.html"><i class="fa-solid fa-ranking-star"></i> Review</a></li>
             </ul>
-            <!-- <ul id="menu-bottom">
-                <li><a href="">Outdoor Attractions</a></li>
-                <li><a href="">Musuems</a></li>
-                <li><a href="">Amusement Parks</a></li>
-                <li><a href="">Festivals & Events</a></li>
-            </ul> -->
         </nav>
     </header>
 
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+       
+        
+    </main>
 
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
         </ul>
     </footer>
 
