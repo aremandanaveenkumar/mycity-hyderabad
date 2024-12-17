@@ -47,7 +47,65 @@
 
     <!-- Main Content -->
     <main>
-
+        <section id="review">
+            <h2><i class="fa-regular fa-thumbs-up"></i> We'd Love to Hear Your Thoughts!</h2>
+            <div class="container">
+                <form method="post" action="https://formdump.codeinstitute.net" id="review-form">
+                    <div class="row">
+                        <div class="col-25">
+                          <label for="first-name" class="text-input-label">First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" name="first_name" id="first-name" class="text-input" placeholder="First name" required>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="last-name" class="text-input-label">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" class="last_name" id="last-name" name="lastname" placeholder="Last name" required>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="email-address" class="text-input-label">Email Address</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" class="text-input" id="email-address" name="email_address" placeholder="Your E-Mail Address" required>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="feedback" class="text-input-label">Feedback</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="feedback" class="text-area" name="feedback" placeholder="Your feedback is incredibly valuable to us and helps us improve our services." style="height:200px"></textarea>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="feedback-stars" class="text-input-label">Rating</label>
+                        </div>
+                        <div class="col-75" id="feedback-stars">
+                            <span class="rating-checked"><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-checked"><i class="fa-solid fa-star"></i></span>
+                            <span class="rating-checked"><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row">
+                        <input type="submit" value="Submit">
+                      </div>
+                </form>
+            </div>
+        </section>
         
     </main>
 
