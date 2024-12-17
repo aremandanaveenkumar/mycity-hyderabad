@@ -18,7 +18,10 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "Exo 2", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -84,6 +87,38 @@ nav {
     font-size: 160%;
 }
 
+/* nav bar sub item drop down */
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top:3px;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#dropdown-toggle:checked~.dropdown-content {
+    display: block;
+}
+
+#dropdown-toggle {
+    display: none;
+}
+
+
 /* Main Content */
 main {
     /*  main element to take max space and position the footer to down*/
@@ -103,7 +138,7 @@ main {
     background-color: black;
 }
 
-#cover-text{
+#cover-text {
     background-color: rgba(206, 144, 123, .5);
     font-size: 130%;
     width: 80%;
@@ -112,10 +147,12 @@ main {
     padding-left: 10px;
     position: relative;
     top: 12%;
-    left:10px
+    left: 10px
 }
 
-#cover-text > h2, #cover-text > h3, #cover-text > h4{
+#cover-text>h2,
+#cover-text>h3,
+#cover-text>h4 {
     color: #f2eac6;
 }
 
@@ -125,12 +162,12 @@ main {
     margin: 20px auto;
 }
 
-#mycity-name{
+#mycity-name {
     text-align: center;
 }
 
-#mycity > div >p{
-    padding: 10px 20px;    
+#mycity>div>p {
+    padding: 10px 20px;
     line-height: 1.75;
 }
 
@@ -139,7 +176,7 @@ hr {
     margin: 5px 0;
 }
 
-#mycity > div {
+#mycity>div {
     margin-bottom: 20px;
 }
 
@@ -203,11 +240,12 @@ hr {
         background-size: 70%;
         background-color: black;
     }
-    #cover-text{
+
+    #cover-text {
         width: 30%;
         position: relative;
         top: 30%;
-        left:10px
+        left: 10px
     }
 }
 

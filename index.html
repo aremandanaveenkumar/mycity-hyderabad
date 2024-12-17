@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
-     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -29,15 +29,19 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html" class="active">Hyderabad</a></li>
-                <li><a href="historicalplaces.html" >Historical Places</a></li>
-                <li><a href="review.html" >Add Review</a></li>
+                <li class="dropdown">
+                    <input type="checkbox" id="dropdown-toggle" name="dropdown-togle">
+                    <label for="dropdown-toggle" class="dropdown-toggle-label">Attractions</label>
+                    <div class="dropdown-content">
+                        <a href="#">Historical Places</a>
+                        <a href="#">Outdoor Attractions</a>
+                        <a href="#">Musuems</a>
+                        <a href="#">Amusement Parks</a>
+                        <a href="#">Festivals & Events</a>
+                    </div>
+                </li>
+                <li><a href="review.html">Add Review</a></li>
             </ul>
-            <!-- <ul id="menu-bottom">
-                <li><a href="">Outdoor Attractions</a></li>
-                <li><a href="">Musuems</a></li>
-                <li><a href="">Amusement Parks</a></li>
-                <li><a href="">Festivals & Events</a></li>
-            </ul> -->
         </nav>
     </header>
 
@@ -54,39 +58,82 @@
             <h2 id="mycity-name">Hyderabad</h2>
             <div id="mycity-history">
                 <h3>History</h3>
-                    <hr>
-                    <p>Hyderabad is the capital and largest city of the Indian state of Telangana. It occupies 650 km2 (250 sq mi) on the Deccan Plateau along the banks of the Musi River, in the northern part of Southern India. With an average altitude of 542 m (1,778 ft), much of Hyderabad is situated on hilly terrain around artificial lakes, including the Hussain Sagar lake. According to the 2011 census of India, Hyderabad is the fourth-most populous city in India with a population of 6.9 million residents within the city limits, and has a population of 9.7 million residents in the metropolitan region, making it the sixth-most populous metropolitan area in India.</p>
+                <hr>
+                <p>Hyderabad is the capital and largest city of the Indian state of Telangana. It occupies 650 km2 (250
+                    sq mi) on the Deccan Plateau along the banks of the Musi River, in the northern part of Southern
+                    India. With an average altitude of 542 m (1,778 ft), much of Hyderabad is situated on hilly terrain
+                    around artificial lakes, including the Hussain Sagar lake. According to the 2011 census of India,
+                    Hyderabad is the fourth-most populous city in India with a population of 6.9 million residents
+                    within the city limits, and has a population of 9.7 million residents in the metropolitan region,
+                    making it the sixth-most populous metropolitan area in India.</p>
             </div>
             <div id="mycity-geography">
                 <h3>Geography</h3>
-                    <hr>
-                    <p>Hyderabad is 1,566 km (973 mi) south of Delhi, 699 km (434 mi) southeast of Mumbai, and 570 km (350 mi) north of Bangalore by road. The original city of Hyderabad was founded on the banks of river Musi and has grown over centuries on the both banks of the river. Now known as the historic "Old City", home to the Charminar and Mecca Masjid, it lies on the southern bank of the river. The city center saw a shift to the north of the river, with the construction of many government buildings and landmarks. Hyderabad and Secunderabad are called as 'Twin cities' as they are closely linked with each other. A man made lake, known as the Hussain Sagar Lake, separates the two cities. The rapid growth of the city, along with the growth of Secunderabad and neighboring municipalities has resulted in a large and populous metropolitan area.</p>
+                <hr>
+                <p>Hyderabad is 1,566 km (973 mi) south of Delhi, 699 km (434 mi) southeast of Mumbai, and 570 km (350
+                    mi) north of Bangalore by road. The original city of Hyderabad was founded on the banks of river
+                    Musi and has grown over centuries on the both banks of the river. Now known as the historic "Old
+                    City", home to the Charminar and Mecca Masjid, it lies on the southern bank of the river. The city
+                    center saw a shift to the north of the river, with the construction of many government buildings and
+                    landmarks. Hyderabad and Secunderabad are called as 'Twin cities' as they are closely linked with
+                    each other. A man made lake, known as the Hussain Sagar Lake, separates the two cities. The rapid
+                    growth of the city, along with the growth of Secunderabad and neighboring municipalities has
+                    resulted in a large and populous metropolitan area.</p>
             </div>
             <div id="mycity-neighborhoods">
                 <h3>Neighborhoods</h3>
-                    <hr>
-                    <p>Hyderabad is twinned with neighboring Secunderabad which is separated through Hussain Sagar lake.</p>
+                <hr>
+                <p>Hyderabad is twinned with neighboring Secunderabad which is separated through Hussain Sagar lake.</p>
 
-                    <p>The South of the Musi river in Central Hyderabad houses most of historical tourist attractions such as; The Charminar, Mecca Masjid, Salarjung Museum, Nizam's museum, High Court of Judicature at Hyderabad, the Falaknuma Palace, Chowmahalla Palace, Purani Haveli Palace and Mahbub mansion, the traditional retail corridor—(Laal Bazaar, Pearls Market and Madina circle) and Nehru Zoological Park.</p>
+                <p>The South of the Musi river in Central Hyderabad houses most of historical tourist attractions such
+                    as; The Charminar, Mecca Masjid, Salarjung Museum, Nizam's museum, High Court of Judicature at
+                    Hyderabad, the Falaknuma Palace, Chowmahalla Palace, Purani Haveli Palace and Mahbub mansion, the
+                    traditional retail corridor—(Laal Bazaar, Pearls Market and Madina circle) and Nehru Zoological
+                    Park.</p>
 
-                    <p>The North of the Musi river in central Hyderabad houses the; Osmania General Hospital, State Central Library, Hyderabad, Osmania Medical College and Women's college(former British Residency), Hyderabad Railway Station and Kachiguda Railway Station along with the CBD's such as; Begum Bazaar, Koti, Osman Gunj, Abids, Sultan Bazaar, Moazzam Jahi Market, Bank Street, Troop Bazaar (former French Barracks)</p>
+                <p>The North of the Musi river in central Hyderabad houses the; Osmania General Hospital, State Central
+                    Library, Hyderabad, Osmania Medical College and Women's college(former British Residency), Hyderabad
+                    Railway Station and Kachiguda Railway Station along with the CBD's such as; Begum Bazaar, Koti,
+                    Osman Gunj, Abids, Sultan Bazaar, Moazzam Jahi Market, Bank Street, Troop Bazaar (former French
+                    Barracks)</p>
 
-                    <p>To the North of central Hyderabad lies the Hussain Sagar Lake, along with Tank Bund Road, Rani Gunj and Secunderabad Railway Station. Most of the parks, boating and recreation locations are situated around the Hussain Sagar Lake such as; Public Garden, Birla planetarium (Birla Temple near by), Necklace Road, Sanjeevaiah Park, Indira Park, Lumbini Park, NTR Gardens, IMAX theaters, Snow World, Buddha purnima and Tankbund Park.</p>
+                <p>To the North of central Hyderabad lies the Hussain Sagar Lake, along with Tank Bund Road, Rani Gunj
+                    and Secunderabad Railway Station. Most of the parks, boating and recreation locations are situated
+                    around the Hussain Sagar Lake such as; Public Garden, Birla planetarium (Birla Temple near by),
+                    Necklace Road, Sanjeevaiah Park, Indira Park, Lumbini Park, NTR Gardens, IMAX theaters, Snow World,
+                    Buddha purnima and Tankbund Park.</p>
 
-                    <p>The Western and South western areas had grown rapidly in the recent decade and houses, HITEC City, Genome Valley, Hyderabad Airport, ICRISAT, Toli chowki, Mehdi patnam, Gachibowli, Golconda Fort, Qutb Shahi Tombs, Osman sagar, Himayath sagar, Miyapur, Madhapur and Jubilee Hills, KBR National Park and Film Nagar.</p>
+                <p>The Western and South western areas had grown rapidly in the recent decade and houses, HITEC City,
+                    Genome Valley, Hyderabad Airport, ICRISAT, Toli chowki, Mehdi patnam, Gachibowli, Golconda Fort,
+                    Qutb Shahi Tombs, Osman sagar, Himayath sagar, Miyapur, Madhapur and Jubilee Hills, KBR National
+                    Park and Film Nagar.</p>
 
-                    <p>To the East of the city lies the Ramoji Film City.</p>
+                <p>To the East of the city lies the Ramoji Film City.</p>
 
-                    <p>The North eastern part of the city houses residential colonies particularly for Retired military personnel and Central Government Employees due to the presence of several national institutions like ECIL, NFC, Indian Institute of Chemical Technology, NGRI and NIN. Neighbourhoods include Malkajgiri, Sainikpuri, Neredmet, A. S. Rao Nagar, Tarnaka, Osmania University, Habsiguda, Marredpally, Bowenpally, Trimulgherry, Secunderabad Cantonment and Uppal.</p>
+                <p>The North eastern part of the city houses residential colonies particularly for Retired military
+                    personnel and Central Government Employees due to the presence of several national institutions like
+                    ECIL, NFC, Indian Institute of Chemical Technology, NGRI and NIN. Neighbourhoods include Malkajgiri,
+                    Sainikpuri, Neredmet, A. S. Rao Nagar, Tarnaka, Osmania University, Habsiguda, Marredpally,
+                    Bowenpally, Trimulgherry, Secunderabad Cantonment and Uppal.</p>
 
-                    <p>Important vegetable and fruit markets are located at Monda Market, Madannapet, Jambagh flower market, Bharat Nagar, Mir Alam mandi, Gaddiannaram and Gudimalkapur. Raitu Bazar located in the different parts of the city core are the small scale vegetable markets controlled by the GHMC. Fish Markets are located in Secunderabad, Begum bazaar, Puranapul, Mangalghat and M.J.Market.</p>
+                <p>Important vegetable and fruit markets are located at Monda Market, Madannapet, Jambagh flower market,
+                    Bharat Nagar, Mir Alam mandi, Gaddiannaram and Gudimalkapur. Raitu Bazar located in the different
+                    parts of the city core are the small scale vegetable markets controlled by the GHMC. Fish Markets
+                    are located in Secunderabad, Begum bazaar, Puranapul, Mangalghat and M.J.Market.</p>
             </div>
             <div id="mycity-climate">
                 <h3>Climate</h3>
                 <hr>
-                <p>The climate of Hyderabad remains fairly warm through most parts of the year and does not receive much rainfall in the monsoon. With the onset of winters in North and central parts of India, temperatures marginally come down in the months of December and January and the nights become quite cool in and around the Hyderabad city. During the summer months, the mercury goes as high as 42 °C while in winters the minimum temperature may come down to as low as 12 °C. June to November are the months of monsoons, accompanied by rains. During the Monsoons also the temperature goes down at times. </p>
+                <p>The climate of Hyderabad remains fairly warm through most parts of the year and does not receive much
+                    rainfall in the monsoon. With the onset of winters in North and central parts of India, temperatures
+                    marginally come down in the months of December and January and the nights become quite cool in and
+                    around the Hyderabad city. During the summer months, the mercury goes as high as 42 °C while in
+                    winters the minimum temperature may come down to as low as 12 °C. June to November are the months of
+                    monsoons, accompanied by rains. During the Monsoons also the temperature goes down at times. </p>
 
-                <p>Thus, for most parts of the year the weather and climate of Hyderabad remains fairly moderate and you can visit the Hyderabad city anytime in the year but the best season to visit Hyderabad is between October–February.</p>
+                <p>Thus, for most parts of the year the weather and climate of Hyderabad remains fairly moderate and you
+                    can visit the Hyderabad city anytime in the year but the best season to visit Hyderabad is between
+                    October–February.</p>
             </div>
         </section>
     </main>
@@ -94,10 +141,18 @@
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
         </ul>
     </footer>
 
