@@ -186,7 +186,7 @@ hr {
 }
 
 .container {
-    background-color: #f2f2f2;
+    background-color: rgba(206, 144, 123, .1);
     padding: 20px;
   }
 
