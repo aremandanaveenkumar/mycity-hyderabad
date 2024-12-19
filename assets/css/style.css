@@ -54,6 +54,14 @@ header a {
     list-style-type: none;
 }
 
+/* link hover effect */
+#menu a:hover {
+    border-bottom: 1px solid #43210a;
+}
+.dropdown-toggle-label:hover {
+    border-bottom: 1px solid #43210a;
+}
+
 #menu>li {
     margin-bottom: 1em;
 }
@@ -270,7 +278,7 @@ input[type=submit]:hover {
 
     /* Header */
     header, header>a{
-        font-size: 91%;
+        font-size: 88%;
     }
     nav {
         position: relative;
@@ -337,9 +345,5 @@ input[type=submit]:hover {
 @media screen and (min-width: 992px) {
     header, header>a{
         font-size: 100%;
-    }
-    /* link hover effect */
-    #menu a:hover {
-        border-bottom: 1px solid #43210a;
     }
 }
