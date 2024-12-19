@@ -269,6 +269,9 @@ input[type=submit]:hover {
 @media screen and (min-width: 768px) {
 
     /* Header */
+    header, header>a{
+        font-size: 91%;
+    }
     nav {
         position: relative;
         width: fit-content;
@@ -332,7 +335,9 @@ input[type=submit]:hover {
 
 /* Media queries : larger screen sizes (992px and up) */
 @media screen and (min-width: 992px) {
-
+    header, header>a{
+        font-size: 100%;
+    }
     /* link hover effect */
     #menu a:hover {
         border-bottom: 1px solid #43210a;

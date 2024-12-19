@@ -1,5 +1,61 @@
 /* Styles for Historical Places */
 
-#centered-header{
+#places {
+    padding: 1em;
+    
+}
+
+#places h2 {
     text-align: center;
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 100%;
+    box-shadow: 0 1px 3px #43210a;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(206, 144, 123, .1);
+}
+
+.column h3 {
+    text-align: center;
+    min-height: 52px;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+.column p{
+    /* padding :5px; */
+    padding: 10px 20px;
+    line-height: 1.75;
+}
+
+/* Media queries : tablets and larger screen sizes (768px and up) */
+@media screen and (min-width: 768px) {
+    #row{
+        padding-left: 5%;
+    }
+    .column {
+        float: left;
+        width: 45%;
+    }
+}
+
+/* Media queries : tablets and larger screen sizes (992px and up) */
+@media screen and (min-width: 992px) {
+    #row{
+        padding-left: 5%;
+    }
+    .column {
+        float: left;
+        width: 30%;
+    }
 }
