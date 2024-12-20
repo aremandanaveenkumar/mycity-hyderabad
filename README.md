@@ -28,3 +28,7 @@ The site main features are focused on providing information regarding the city, 
 
 ![Landing Page Screenshot](docs/landing_page.png)
 
+- __The Information Section about MyCity__
+
+  - This section starts with a heading of the selected city and follows by a breif description of the History of the City, Geography of the City, Neighborhoods of the City, Climate of the City.
+
