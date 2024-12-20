@@ -32,3 +32,7 @@ The site main features are focused on providing information regarding the city, 
 
   - This section starts with a heading of the selected city and follows by a breif description of the History of the City, Geography of the City, Neighborhoods of the City, Climate of the City.
 
+![History Screenshot](docs/history.png)
+![Geography Screenshot](docs/geography.png)
+![Neighborhoods Screenshot](docs/neighborhoods.png)
+![Climate Screenshot](docs/climate.png)
