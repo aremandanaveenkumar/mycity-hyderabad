@@ -6,4 +6,4 @@ In future development more cities shall be added and we shall try to gather excl
 
 If you want to include your city / place in this site, please update your details in the review page, so that we can gather information required and update the site.
 
-![Mockup Screenshot](assets/images/hero-image.webp)
+![Mockup Screenshot](docs/mockup_screenshot_home.jpeg)
