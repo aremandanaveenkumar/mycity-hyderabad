@@ -47,7 +47,11 @@ The site main features are focused on providing information regarding the city, 
 
 ### Features Left to Implement
 
-- 
+- The Home Page is configured to show a single City information and further attractions were also to the same city, in future, that can be changed to a drop down menu selecting different cities and the attraction drop down automatically displays the relevant selected city information.
+- Each Attraction Page is now limited to displaying a single image, which can be implemented further using a Image Carousel with Controls, Indicators & Captions
+- Description for each place can be added to all pages, now only Historical Places is displaying along with description.
+- User Ratings provided are showing only as a example, which can be implemented to the real data.
+- No Javascript or back end script was implemented as of now, upon further development and requirement more functionality can be added.
 
 ## Testing 
 
