@@ -51,15 +51,30 @@ The site main features are focused on providing information regarding the city, 
 
 ## Testing 
 
-
+- Tested on Desktop, Tablet & Mobile Devices with out any problems.
+- Desktop version tested on Microsoft Surface Pro 7 & 24inch Extension Monitor(1920 x 1080).
+- Tablet version tested on Apple IPad Air4.
+- Mobile version tested on Apple IPhone 12, IPhone 16 Pro Max, Samsung Galaxy A51, Samsung Galaxy S23 Ultra
+- All the testing are done both in Potrait mode and Landscape mode also.
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+  - No errors were returned when passing through the official [W3C validator Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faremandanaveenkumar.github.io%2Fmycity-hyderabad%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator Historical Places Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faremandanaveenkumar.github.io%2Fmycity-hyderabad%2Fhistoricalplaces.html)
+  - No errors were returned when passing through the official [W3C validator Outdoor Attractions Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faremandanaveenkumar.github.io%2Fmycity-hyderabad%2Foutdoorattractions.html)
+  - No errors were returned when passing through the official [W3C validator Musuems Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faremandanaveenkumar.github.io%2Fmycity-hyderabad%2Fmusuems.html)
+  - No errors were returned when passing through the official [W3C validator Amusement Parks Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faremandanaveenkumar.github.io%2Fmycity-hyderabad%2Famusementparks.html)
+  - No errors were returned when passing through the official [W3C validator Festivals & Events Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Faremandanaveenkumar.github.io%2Fmycity-hyderabad%2Ffestivalsandevents.html)
+
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+  - No errors were found when passing through the official [(Jigsaw) validator  Home Page & style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faremandanaveenkumar.github.io%2Fmycity-hyderabad%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator  All Attractions Pages, style.css & attractions.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faremandanaveenkumar.github.io%2Fmycity-hyderabad%2Fhistoricalplaces.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 
 ## Deployment
 
@@ -79,9 +94,11 @@ This project is developed based on the reference project taught by [Code Institu
 
 - The text for the Home page was taken from [Wikipedia Article](https://en.wikipedia.org/wiki/Hyderabad)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
  
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The tour guide icon used for favicon is taken from [freepik](https://www.freepik.com/icon/tour-guide_9675725) 
+- The Fonts [Exo 2](https://fonts.google.com/specimen/Exo+2) & [Montserrat](https://fonts.google.com/specimen/Montserrat) were taken from [google fonts](https://fonts.google.com)
+- The website [Incredible India](https://www.incredibleindia.gov.in/en/telangana) was referred for reference as a tourist information site, from which most of the ideas were developed.
+- The photo used on the home for landing page is taken from (https://wallpaperswide.com/charminar-wallpapers.html)
+- The images used in the attractions pages were taken from (https://www.holidify.com/collections/historical-places-in-hyderabad) , (https://en.wikipedia.org/wiki/Hyderabad) and google
 
 
