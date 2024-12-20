@@ -36,3 +36,15 @@ The site main features are focused on providing information regarding the city, 
 ![Geography Screenshot](docs/geography.png)
 ![Neighborhoods Screenshot](docs/neighborhoods.png)
 ![Climate Screenshot](docs/climate.png)
+
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites for My City. 
+  - The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+
+![Footer](docs/footer.png)
+
+
+
+
