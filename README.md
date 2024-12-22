@@ -26,7 +26,7 @@ The site main features are focused on providing information regarding the city, 
   - The landing includes a photograph of the city with text overlay mentioning the city name & recognition provided for that city. 
   - This section introduces the user to indulge in further learning about the city and its attractions.
 
-![Landing Page Screenshot](docs/landing_page.png)
+![Landing Page Screenshot](docs/landing_page_dropdown.png)
 
 - __The Information Section about MyCity__
 
@@ -36,6 +36,17 @@ The site main features are focused on providing information regarding the city, 
 ![Geography Screenshot](docs/geography.png)
 ![Neighborhoods Screenshot](docs/neighborhoods.png)
 ![Climate Screenshot](docs/climate.png)
+
+- __Dropdown menu Attractions__
+
+  - Accessing this Dropdown menu gives further links to pages where more information is provided.
+  - Each page is identical in view, where a image showing the place and a description of that place is provided, along with these information, the Rating provided by other users also provided.
+
+![History Page Screenshot](docs/history_mockup.png)
+![Outdoor Page Screenshot](docs/outdoor_mockup.png)
+![Musuems Page Screenshot](docs/musuems_mockup.png)
+![Parks Page Screenshot](docs/parks_mockup.png)
+![Events Page Screenshot](docs/events_mockup.png)
 
 - __The Footer__ 
 
